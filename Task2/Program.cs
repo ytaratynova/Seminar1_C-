@@ -9,12 +9,12 @@ int numberB = int.Parse(Console.ReadLine());
 
 if (numberA > numberB)
 {
-    Console.WriteLine($"Максимальное из них {numberA}");
+    Console.WriteLine($"{numberA} больше {numberB}");
 }
 
 if (numberB > numberA)
 {
-    Console.WriteLine($"Максимальное из них {numberB}");
+    Console.WriteLine($"{numberB} больше {numberA}");
 }
 
 if (numberA == numberB)
